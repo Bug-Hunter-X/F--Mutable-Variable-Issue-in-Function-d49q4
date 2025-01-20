@@ -1,0 +1,1 @@
+This example demonstrates a common error in F# when dealing with mutable variables and functions.  The initial values of the mutable variables `x` and `y` are captured by the function `add` upon definition, not when it is later called, resulting in unexpected output. The solution shows how to explicitly pass the values to avoid this behavior.
